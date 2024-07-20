@@ -1,0 +1,49 @@
+
+
+input {
+
+    background-color: #e9eeea;
+    border: 1px solid va#faa14d;
+    color: #130101;
+}
+
+input[type=file] {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9eeea;
+    border: 1px solid #faa14d;
+    color: #130101;
+}
+
+label {
+    color: white;
+}
+
+#input-flex {
+    display: flex;
+    gap: 5%;
+}
+
+#ComebackButton
+{
+    background-color: #e9eeea;
+    border: 1px solid #faa14d;
+    height: auto;
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+#ComebackButton > a {
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: var(--primary-color);
+}
+#registration-menu > h1{
+    color: wheat;
+}
